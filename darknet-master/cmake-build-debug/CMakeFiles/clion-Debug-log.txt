@@ -1,0 +1,29 @@
+/Users/wansiteng/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/wansiteng/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/wansiteng/Downloads/darknet-master -B /Users/wansiteng/Downloads/darknet-master/cmake-build-debug
+CMake Warning at CMakeLists.txt:104 (message):
+  vcpkg not found, toolchain not defined, system not win32 so build might
+  fail
+
+
+Darknet_VERSION: 0.2.5.7
+-- The C compiler identification is AppleClang 15.0.0.15000100
+-- The CXX compiler identification is AppleClang 15.0.0.15000100
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for a CUDA compiler
+-- Looking for a CUDA compiler - NOTFOUND
+-- CUDA_PATH: 
+-- CUDACXX: 
+CMake Error at CMakeLists.txt:188 (message):
+  CUDA not found, please build explicitly with -DENABLE_CUDA=OFF if you do
+  not want CUDA.
+
+
+-- Configuring incomplete, errors occurred!

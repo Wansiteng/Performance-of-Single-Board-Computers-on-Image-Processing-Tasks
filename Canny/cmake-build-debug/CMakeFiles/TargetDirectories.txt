@@ -1,0 +1,3 @@
+/Volumes/Edison/Canny/cmake-build-debug/CMakeFiles/untitled1.dir
+/Volumes/Edison/Canny/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/Edison/Canny/cmake-build-debug/CMakeFiles/rebuild_cache.dir
