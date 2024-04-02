@@ -1,8 +1,8 @@
 #!/bin/bash
 
-input_folder="/media/rock/SanDisk/SmallPic"
-output_folder="/media/rock/SanDisk/Canny/canny_output"
-log_folder="/media/rock/SanDisk/Canny/log"
+input_folder="/media/edison/SanDisk/Pictures/medium"
+output_folder="/media/edison/SanDisk/Canny/canny_output"
+log_folder="/media/edison/SanDisk/Canny/log"
 
 count=0
 

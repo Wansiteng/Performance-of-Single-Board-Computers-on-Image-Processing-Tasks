@@ -1,0 +1,112 @@
+--------------------------------------------------------------------------------
+Command:            ./canny /media/edison/SanDisk/SmallPic/2008_001781.bmp /media/edison/SanDisk/Canny/canny_output/2008_001781.bmp
+Massif arguments:   --massif-out-file=/media/edison/SanDisk/Canny/log/massif_out_16.txt
+ms_print arguments: /media/edison/SanDisk/Canny/log/massif_out_16.txt
+--------------------------------------------------------------------------------
+
+
+    MB
+2.786^:::::::::::::#                                                          
+     |:            #                                                          
+     |:            #                                                          
+     |:            #                                                          
+     |:            #                                                          
+     |:            #                                                          
+     |:            #                                                          
+     |:            #                                                          
+     |:            #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+     |:            #                                                         :
+     |:            #                                                         :
+     |:            #                                                         :
+     |:            #                                                         :
+     |:            #                                                         :
+     |@            #                                                         :
+     |@            #                                                         :
+     |@            #                                                         :
+     |@            #                                                         :
+     |@            #                                                         :
+     |@            #                                                         :
+   0 +----------------------------------------------------------------------->Gi
+     0                                                                   3.661
+
+Number of snapshots: 25
+ Detailed snapshots: [4, 13 (peak), 23]
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  0              0                0                0             0            0
+  1        147,425              488              472            16            0
+  2        148,116            8,688            8,664            24            0
+  3        149,652          884,792          884,760            32            0
+  4     27,102,688          884,792          884,760            32            0
+100.00% (884,760B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.02% (876,096B) 0x109073: load_bmp(char const*, bitmap_info_header_t*) (in /media/edison/SanDisk/Canny/canny)
+| ->99.02% (876,096B) 0x10A583: main (in /media/edison/SanDisk/Canny/canny)
+|   
+->00.98% (8,664B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+  5     27,102,688          876,592          876,568            24            0
+  6     27,102,837          876,104          876,096             8            0
+  7     27,103,215          877,136          877,120            16            0
+  8     27,105,134        1,169,176        1,169,152            24            0
+  9     27,105,193        1,461,216        1,461,184            32            0
+ 10     27,105,252        1,753,256        1,753,216            40            0
+ 11     27,105,311        2,045,296        2,045,248            48            0
+ 12     27,105,357        2,921,400        2,921,344            56            0
+ 13    729,297,436        2,921,400        2,921,344            56            0
+100.00% (2,921,344B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->29.99% (876,096B) 0x109073: load_bmp(char const*, bitmap_info_header_t*) (in /media/edison/SanDisk/Canny/canny)
+| ->29.99% (876,096B) 0x10A583: main (in /media/edison/SanDisk/Canny/canny)
+|   
+->29.99% (876,096B) 0x109CEB: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+| ->29.99% (876,096B) 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+|   
+->10.00% (292,032B) 0x109C73: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+| ->10.00% (292,032B) 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+|   
+->10.00% (292,032B) 0x109C93: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+| ->10.00% (292,032B) 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+|   
+->10.00% (292,032B) 0x109CB3: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+| ->10.00% (292,032B) 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+|   
+->10.00% (292,032B) 0x109CD3: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+| ->10.00% (292,032B) 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+|   
+->00.04% (1,024B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 14    729,297,436        2,629,360        2,629,312            48            0
+ 15    729,297,471        2,337,320        2,337,280            40            0
+ 16    729,297,506        2,045,280        2,045,248            32            0
+ 17    729,297,541        1,753,240        1,753,216            24            0
+ 18    729,299,982        1,753,728        1,753,688            40            0
+ 19    729,300,704        1,761,928        1,761,880            48            0
+ 20  3,930,454,731        1,753,728        1,753,688            40            0
+ 21  3,930,454,880        1,753,240        1,753,216            24            0
+ 22  3,930,454,936          877,136          877,120            16            0
+ 23  3,930,454,971            1,032            1,024             8            0
+99.22% (1,024B) (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+->99.22% (1,024B) 0x49BA273: _IO_file_doallocate (filedoalloc.c:101)
+| ->99.22% (1,024B) 0x49C893F: _IO_doallocbuf (genops.c:347)
+|   ->99.22% (1,024B) 0x49C893F: _IO_doallocbuf (genops.c:342)
+|     ->99.22% (1,024B) 0x49C7D0B: _IO_file_overflow@@GLIBC_2.17 (fileops.c:744)
+|       ->99.22% (1,024B) 0x49C6EA7: _IO_new_file_xsputn (fileops.c:1243)
+|         ->99.22% (1,024B) 0x49C6EA7: _IO_file_xsputn@@GLIBC_2.17 (fileops.c:1196)
+|           ->99.22% (1,024B) 0x49A51CF: outstring_func (vfprintf-internal.c:239)
+|             ->99.22% (1,024B) 0x49A51CF: __vfprintf_internal (vfprintf-internal.c:767)
+|               ->99.22% (1,024B) 0x499CD83: printf (printf.c:33)
+|                 ->99.22% (1,024B) 0x10A5F3: main (in /media/edison/SanDisk/Canny/canny)
+|                   
+->00.00% (0B) in 1+ places, all below ms_print's threshold (01.00%)
+
+--------------------------------------------------------------------------------
+  n        time(i)         total(B)   useful-heap(B) extra-heap(B)    stacks(B)
+--------------------------------------------------------------------------------
+ 24  3,930,460,744                0                0             0            0

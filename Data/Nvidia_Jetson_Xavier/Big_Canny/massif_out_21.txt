@@ -1,0 +1,141 @@
+desc: --massif-out-file=/media/edison/SanDisk/Canny/log/massif_out_21.txt
+cmd: ./canny /media/edison/SanDisk/BigPic/0347.png.bmp /media/edison/SanDisk/Canny/canny_output/0347.png.bmp
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=140814
+mem_heap_B=472
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=141472
+mem_heap_B=8664
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=143000
+mem_heap_B=22040664
+mem_heap_extra_B=352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=661693925
+mem_heap_B=22040664
+mem_heap_extra_B=352
+mem_stacks_B=0
+heap_tree=detailed
+n2: 22040664 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 22032000 0x109073: load_bmp(char const*, bitmap_info_header_t*) (in /media/edison/SanDisk/Canny/canny)
+  n0: 22032000 0x10A583: main (in /media/edison/SanDisk/Canny/canny)
+ n0: 8664 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=661693925
+mem_heap_B=22032472
+mem_heap_extra_B=344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=661694073
+mem_heap_B=22032000
+mem_heap_extra_B=328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=661694451
+mem_heap_B=22033024
+mem_heap_extra_B=336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=661696448
+mem_heap_B=29377024
+mem_heap_extra_B=408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=661696505
+mem_heap_B=36721024
+mem_heap_extra_B=480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=661696562
+mem_heap_B=44065024
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=661696619
+mem_heap_B=51409024
+mem_heap_extra_B=624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=661696662
+mem_heap_B=73441024
+mem_heap_extra_B=952
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=2895083236
+mem_heap_B=73441024
+mem_heap_extra_B=952
+mem_stacks_B=0
+heap_tree=peak
+n7: 73441024 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 22032000 0x109073: load_bmp(char const*, bitmap_info_header_t*) (in /media/edison/SanDisk/Canny/canny)
+  n0: 22032000 0x10A583: main (in /media/edison/SanDisk/Canny/canny)
+ n1: 22032000 0x109CEB: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+  n0: 22032000 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+ n1: 7344000 0x109C73: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+  n0: 7344000 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+ n1: 7344000 0x109C93: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+  n0: 7344000 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+ n1: 7344000 0x109CB3: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+  n0: 7344000 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+ n1: 7344000 0x109CD3: canny_edge_detection(short const*, bitmap_info_header_t const*, int, int, float) (in /media/edison/SanDisk/Canny/canny)
+  n0: 7344000 0x10A617: main (in /media/edison/SanDisk/Canny/canny)
+ n0: 1024 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=2895083236
+mem_heap_B=73440000
+mem_heap_extra_B=944
+mem_stacks_B=0
+heap_tree=empty

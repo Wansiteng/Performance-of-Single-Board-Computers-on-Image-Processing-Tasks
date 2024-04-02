@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE_DIR="/media/rock/SanDisk/SmallPic"
+IMAGE_DIR="/media/edison/SanDisk/SmallPic"
 CONFIG_PATH="cfg/yolov4.cfg"
 WEIGHTS_PATH="yolov4.weights"
 DATA_PATH="cfg/coco.data"

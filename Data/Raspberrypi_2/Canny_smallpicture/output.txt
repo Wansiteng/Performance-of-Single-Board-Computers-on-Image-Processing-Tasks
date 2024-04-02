@@ -1,0 +1,857 @@
+==3447== Massif, a heap profiler
+==3447== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==3447== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==3447== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001745.bmp /media/edison/SanDisk/Canny/canny_output/2008_001745.bmp
+==3447== 
+--3447-- WARNING: Serious error when reading debug info
+--3447-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3447-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3447-- WARNING: Serious error when reading debug info
+--3447-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3447-- Last block truncated in .debug_info; ignoring
+--3447-- WARNING: Serious error when reading debug info
+--3447-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3447-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3447-- WARNING: Serious error when reading debug info
+--3447-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3447-- Last block truncated in .debug_info; ignoring
+--3447-- WARNING: Serious error when reading debug info
+--3447-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3447-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3447-- WARNING: Serious error when reading debug info
+--3447-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3447-- Last block truncated in .debug_info; ignoring
+Info: 375 x 500 x 24
+--3447-- WARNING: unhandled syscall: 403
+--3447-- You may be able to write your own handler.
+--3447-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--3447-- Nevertheless we consider this a bug.  Please report
+--3447-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.038901 seconds.
+==3447== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001745.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001745.bmp
+==3511== Massif, a heap profiler
+==3511== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==3511== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==3511== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001746.bmp /media/edison/SanDisk/Canny/canny_output/2008_001746.bmp
+==3511== 
+--3511-- WARNING: Serious error when reading debug info
+--3511-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3511-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3511-- WARNING: Serious error when reading debug info
+--3511-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3511-- Last block truncated in .debug_info; ignoring
+--3511-- WARNING: Serious error when reading debug info
+--3511-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3511-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3511-- WARNING: Serious error when reading debug info
+--3511-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3511-- Last block truncated in .debug_info; ignoring
+--3511-- WARNING: Serious error when reading debug info
+--3511-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3511-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3511-- WARNING: Serious error when reading debug info
+--3511-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3511-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--3511-- WARNING: unhandled syscall: 403
+--3511-- You may be able to write your own handler.
+--3511-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--3511-- Nevertheless we consider this a bug.  Please report
+--3511-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.318564 seconds.
+==3511== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001746.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001746.bmp
+==3563== Massif, a heap profiler
+==3563== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==3563== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==3563== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001750.bmp /media/edison/SanDisk/Canny/canny_output/2008_001750.bmp
+==3563== 
+--3563-- WARNING: Serious error when reading debug info
+--3563-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3563-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3563-- WARNING: Serious error when reading debug info
+--3563-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3563-- Last block truncated in .debug_info; ignoring
+--3563-- WARNING: Serious error when reading debug info
+--3563-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3563-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3563-- WARNING: Serious error when reading debug info
+--3563-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3563-- Last block truncated in .debug_info; ignoring
+--3563-- WARNING: Serious error when reading debug info
+--3563-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3563-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3563-- WARNING: Serious error when reading debug info
+--3563-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3563-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--3563-- WARNING: unhandled syscall: 403
+--3563-- You may be able to write your own handler.
+--3563-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--3563-- Nevertheless we consider this a bug.  Please report
+--3563-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.218646 seconds.
+==3563== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001750.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001750.bmp
+==3730== Massif, a heap profiler
+==3730== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==3730== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==3730== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001751.bmp /media/edison/SanDisk/Canny/canny_output/2008_001751.bmp
+==3730== 
+--3730-- WARNING: Serious error when reading debug info
+--3730-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3730-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3730-- WARNING: Serious error when reading debug info
+--3730-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3730-- Last block truncated in .debug_info; ignoring
+--3730-- WARNING: Serious error when reading debug info
+--3730-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3730-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3730-- WARNING: Serious error when reading debug info
+--3730-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3730-- Last block truncated in .debug_info; ignoring
+--3730-- WARNING: Serious error when reading debug info
+--3730-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3730-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3730-- WARNING: Serious error when reading debug info
+--3730-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3730-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--3730-- WARNING: unhandled syscall: 403
+--3730-- You may be able to write your own handler.
+--3730-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--3730-- Nevertheless we consider this a bug.  Please report
+--3730-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.524835 seconds.
+==3730== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001751.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001751.bmp
+==3893== Massif, a heap profiler
+==3893== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==3893== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==3893== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001757.bmp /media/edison/SanDisk/Canny/canny_output/2008_001757.bmp
+==3893== 
+--3893-- WARNING: Serious error when reading debug info
+--3893-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3893-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3893-- WARNING: Serious error when reading debug info
+--3893-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3893-- Last block truncated in .debug_info; ignoring
+--3893-- WARNING: Serious error when reading debug info
+--3893-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3893-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3893-- WARNING: Serious error when reading debug info
+--3893-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3893-- Last block truncated in .debug_info; ignoring
+--3893-- WARNING: Serious error when reading debug info
+--3893-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3893-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3893-- WARNING: Serious error when reading debug info
+--3893-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3893-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--3893-- WARNING: unhandled syscall: 403
+--3893-- You may be able to write your own handler.
+--3893-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--3893-- Nevertheless we consider this a bug.  Please report
+--3893-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.341078 seconds.
+==3893== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001757.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001757.bmp
+==3976== Massif, a heap profiler
+==3976== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==3976== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==3976== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001758.bmp /media/edison/SanDisk/Canny/canny_output/2008_001758.bmp
+==3976== 
+--3976-- WARNING: Serious error when reading debug info
+--3976-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3976-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3976-- WARNING: Serious error when reading debug info
+--3976-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--3976-- Last block truncated in .debug_info; ignoring
+--3976-- WARNING: Serious error when reading debug info
+--3976-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3976-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3976-- WARNING: Serious error when reading debug info
+--3976-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--3976-- Last block truncated in .debug_info; ignoring
+--3976-- WARNING: Serious error when reading debug info
+--3976-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3976-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--3976-- WARNING: Serious error when reading debug info
+--3976-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--3976-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--3976-- WARNING: unhandled syscall: 403
+--3976-- You may be able to write your own handler.
+--3976-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--3976-- Nevertheless we consider this a bug.  Please report
+--3976-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.894152 seconds.
+==3976== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001758.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001758.bmp
+==4012== Massif, a heap profiler
+==4012== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4012== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4012== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001761.bmp /media/edison/SanDisk/Canny/canny_output/2008_001761.bmp
+==4012== 
+--4012-- WARNING: Serious error when reading debug info
+--4012-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4012-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4012-- WARNING: Serious error when reading debug info
+--4012-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4012-- Last block truncated in .debug_info; ignoring
+--4012-- WARNING: Serious error when reading debug info
+--4012-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4012-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4012-- WARNING: Serious error when reading debug info
+--4012-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4012-- Last block truncated in .debug_info; ignoring
+--4012-- WARNING: Serious error when reading debug info
+--4012-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4012-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4012-- WARNING: Serious error when reading debug info
+--4012-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4012-- Last block truncated in .debug_info; ignoring
+Info: 379 x 500 x 24
+--4012-- WARNING: unhandled syscall: 403
+--4012-- You may be able to write your own handler.
+--4012-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4012-- Nevertheless we consider this a bug.  Please report
+--4012-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.796656 seconds.
+==4012== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001761.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001761.bmp
+==4047== Massif, a heap profiler
+==4047== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4047== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4047== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001763.bmp /media/edison/SanDisk/Canny/canny_output/2008_001763.bmp
+==4047== 
+--4047-- WARNING: Serious error when reading debug info
+--4047-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4047-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4047-- WARNING: Serious error when reading debug info
+--4047-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4047-- Last block truncated in .debug_info; ignoring
+--4047-- WARNING: Serious error when reading debug info
+--4047-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4047-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4047-- WARNING: Serious error when reading debug info
+--4047-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4047-- Last block truncated in .debug_info; ignoring
+--4047-- WARNING: Serious error when reading debug info
+--4047-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4047-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4047-- WARNING: Serious error when reading debug info
+--4047-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4047-- Last block truncated in .debug_info; ignoring
+Info: 333 x 500 x 24
+--4047-- WARNING: unhandled syscall: 403
+--4047-- You may be able to write your own handler.
+--4047-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4047-- Nevertheless we consider this a bug.  Please report
+--4047-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.407064 seconds.
+==4047== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001763.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001763.bmp
+==4076== Massif, a heap profiler
+==4076== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4076== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4076== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001764.bmp /media/edison/SanDisk/Canny/canny_output/2008_001764.bmp
+==4076== 
+--4076-- WARNING: Serious error when reading debug info
+--4076-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4076-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4076-- WARNING: Serious error when reading debug info
+--4076-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4076-- Last block truncated in .debug_info; ignoring
+--4076-- WARNING: Serious error when reading debug info
+--4076-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4076-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4076-- WARNING: Serious error when reading debug info
+--4076-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4076-- Last block truncated in .debug_info; ignoring
+--4076-- WARNING: Serious error when reading debug info
+--4076-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4076-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4076-- WARNING: Serious error when reading debug info
+--4076-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4076-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4076-- WARNING: unhandled syscall: 403
+--4076-- You may be able to write your own handler.
+--4076-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4076-- Nevertheless we consider this a bug.  Please report
+--4076-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.133958 seconds.
+==4076== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001764.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001764.bmp
+==4115== Massif, a heap profiler
+==4115== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4115== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4115== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001765.bmp /media/edison/SanDisk/Canny/canny_output/2008_001765.bmp
+==4115== 
+--4115-- WARNING: Serious error when reading debug info
+--4115-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4115-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4115-- WARNING: Serious error when reading debug info
+--4115-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4115-- Last block truncated in .debug_info; ignoring
+--4115-- WARNING: Serious error when reading debug info
+--4115-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4115-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4115-- WARNING: Serious error when reading debug info
+--4115-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4115-- Last block truncated in .debug_info; ignoring
+--4115-- WARNING: Serious error when reading debug info
+--4115-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4115-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4115-- WARNING: Serious error when reading debug info
+--4115-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4115-- Last block truncated in .debug_info; ignoring
+Info: 375 x 500 x 24
+--4115-- WARNING: unhandled syscall: 403
+--4115-- You may be able to write your own handler.
+--4115-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4115-- Nevertheless we consider this a bug.  Please report
+--4115-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.956055 seconds.
+==4115== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001765.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001765.bmp
+==4143== Massif, a heap profiler
+==4143== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4143== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4143== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001769.bmp /media/edison/SanDisk/Canny/canny_output/2008_001769.bmp
+==4143== 
+--4143-- WARNING: Serious error when reading debug info
+--4143-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4143-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4143-- WARNING: Serious error when reading debug info
+--4143-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4143-- Last block truncated in .debug_info; ignoring
+--4143-- WARNING: Serious error when reading debug info
+--4143-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4143-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4143-- WARNING: Serious error when reading debug info
+--4143-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4143-- Last block truncated in .debug_info; ignoring
+--4143-- WARNING: Serious error when reading debug info
+--4143-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4143-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4143-- WARNING: Serious error when reading debug info
+--4143-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4143-- Last block truncated in .debug_info; ignoring
+Info: 469 x 500 x 24
+--4143-- WARNING: unhandled syscall: 403
+--4143-- You may be able to write your own handler.
+--4143-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4143-- Nevertheless we consider this a bug.  Please report
+--4143-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 10.086222 seconds.
+==4143== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001769.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001769.bmp
+==4180== Massif, a heap profiler
+==4180== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4180== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4180== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001770.bmp /media/edison/SanDisk/Canny/canny_output/2008_001770.bmp
+==4180== 
+--4180-- WARNING: Serious error when reading debug info
+--4180-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4180-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4180-- WARNING: Serious error when reading debug info
+--4180-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4180-- Last block truncated in .debug_info; ignoring
+--4180-- WARNING: Serious error when reading debug info
+--4180-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4180-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4180-- WARNING: Serious error when reading debug info
+--4180-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4180-- Last block truncated in .debug_info; ignoring
+--4180-- WARNING: Serious error when reading debug info
+--4180-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4180-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4180-- WARNING: Serious error when reading debug info
+--4180-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4180-- Last block truncated in .debug_info; ignoring
+Info: 375 x 500 x 24
+--4180-- WARNING: unhandled syscall: 403
+--4180-- You may be able to write your own handler.
+--4180-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4180-- Nevertheless we consider this a bug.  Please report
+--4180-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.315362 seconds.
+==4180== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001770.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001770.bmp
+==4223== Massif, a heap profiler
+==4223== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4223== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4223== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001772.bmp /media/edison/SanDisk/Canny/canny_output/2008_001772.bmp
+==4223== 
+--4223-- WARNING: Serious error when reading debug info
+--4223-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4223-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4223-- WARNING: Serious error when reading debug info
+--4223-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4223-- Last block truncated in .debug_info; ignoring
+--4223-- WARNING: Serious error when reading debug info
+--4223-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4223-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4223-- WARNING: Serious error when reading debug info
+--4223-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4223-- Last block truncated in .debug_info; ignoring
+--4223-- WARNING: Serious error when reading debug info
+--4223-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4223-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4223-- WARNING: Serious error when reading debug info
+--4223-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4223-- Last block truncated in .debug_info; ignoring
+Info: 500 x 333 x 24
+--4223-- WARNING: unhandled syscall: 403
+--4223-- You may be able to write your own handler.
+--4223-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4223-- Nevertheless we consider this a bug.  Please report
+--4223-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.339464 seconds.
+==4223== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001772.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001772.bmp
+==4258== Massif, a heap profiler
+==4258== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4258== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4258== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001773.bmp /media/edison/SanDisk/Canny/canny_output/2008_001773.bmp
+==4258== 
+--4258-- WARNING: Serious error when reading debug info
+--4258-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4258-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4258-- WARNING: Serious error when reading debug info
+--4258-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4258-- Last block truncated in .debug_info; ignoring
+--4258-- WARNING: Serious error when reading debug info
+--4258-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4258-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4258-- WARNING: Serious error when reading debug info
+--4258-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4258-- Last block truncated in .debug_info; ignoring
+--4258-- WARNING: Serious error when reading debug info
+--4258-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4258-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4258-- WARNING: Serious error when reading debug info
+--4258-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4258-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4258-- WARNING: unhandled syscall: 403
+--4258-- You may be able to write your own handler.
+--4258-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4258-- Nevertheless we consider this a bug.  Please report
+--4258-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.328113 seconds.
+==4258== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001773.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001773.bmp
+==4296== Massif, a heap profiler
+==4296== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4296== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4296== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001774.bmp /media/edison/SanDisk/Canny/canny_output/2008_001774.bmp
+==4296== 
+--4296-- WARNING: Serious error when reading debug info
+--4296-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4296-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4296-- WARNING: Serious error when reading debug info
+--4296-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4296-- Last block truncated in .debug_info; ignoring
+--4296-- WARNING: Serious error when reading debug info
+--4296-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4296-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4296-- WARNING: Serious error when reading debug info
+--4296-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4296-- Last block truncated in .debug_info; ignoring
+--4296-- WARNING: Serious error when reading debug info
+--4296-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4296-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4296-- WARNING: Serious error when reading debug info
+--4296-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4296-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4296-- WARNING: unhandled syscall: 403
+--4296-- You may be able to write your own handler.
+--4296-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4296-- Nevertheless we consider this a bug.  Please report
+--4296-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.006144 seconds.
+==4296== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001774.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001774.bmp
+==4330== Massif, a heap profiler
+==4330== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4330== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4330== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001775.bmp /media/edison/SanDisk/Canny/canny_output/2008_001775.bmp
+==4330== 
+--4330-- WARNING: Serious error when reading debug info
+--4330-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4330-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4330-- WARNING: Serious error when reading debug info
+--4330-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4330-- Last block truncated in .debug_info; ignoring
+--4330-- WARNING: Serious error when reading debug info
+--4330-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4330-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4330-- WARNING: Serious error when reading debug info
+--4330-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4330-- Last block truncated in .debug_info; ignoring
+--4330-- WARNING: Serious error when reading debug info
+--4330-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4330-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4330-- WARNING: Serious error when reading debug info
+--4330-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4330-- Last block truncated in .debug_info; ignoring
+Info: 500 x 337 x 24
+--4330-- WARNING: unhandled syscall: 403
+--4330-- You may be able to write your own handler.
+--4330-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4330-- Nevertheless we consider this a bug.  Please report
+--4330-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.327622 seconds.
+==4330== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001775.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001775.bmp
+==4364== Massif, a heap profiler
+==4364== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4364== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4364== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001781.bmp /media/edison/SanDisk/Canny/canny_output/2008_001781.bmp
+==4364== 
+--4364-- WARNING: Serious error when reading debug info
+--4364-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4364-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4364-- WARNING: Serious error when reading debug info
+--4364-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4364-- Last block truncated in .debug_info; ignoring
+--4364-- WARNING: Serious error when reading debug info
+--4364-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4364-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4364-- WARNING: Serious error when reading debug info
+--4364-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4364-- Last block truncated in .debug_info; ignoring
+--4364-- WARNING: Serious error when reading debug info
+--4364-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4364-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4364-- WARNING: Serious error when reading debug info
+--4364-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4364-- Last block truncated in .debug_info; ignoring
+Info: 468 x 312 x 24
+--4364-- WARNING: unhandled syscall: 403
+--4364-- You may be able to write your own handler.
+--4364-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4364-- Nevertheless we consider this a bug.  Please report
+--4364-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 6.220580 seconds.
+==4364== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001781.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001781.bmp
+==4393== Massif, a heap profiler
+==4393== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4393== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4393== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001782.bmp /media/edison/SanDisk/Canny/canny_output/2008_001782.bmp
+==4393== 
+--4393-- WARNING: Serious error when reading debug info
+--4393-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4393-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4393-- WARNING: Serious error when reading debug info
+--4393-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4393-- Last block truncated in .debug_info; ignoring
+--4393-- WARNING: Serious error when reading debug info
+--4393-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4393-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4393-- WARNING: Serious error when reading debug info
+--4393-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4393-- Last block truncated in .debug_info; ignoring
+--4393-- WARNING: Serious error when reading debug info
+--4393-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4393-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4393-- WARNING: Serious error when reading debug info
+--4393-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4393-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4393-- WARNING: unhandled syscall: 403
+--4393-- You may be able to write your own handler.
+--4393-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4393-- Nevertheless we consider this a bug.  Please report
+--4393-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.314359 seconds.
+==4393== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001782.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001782.bmp
+==4431== Massif, a heap profiler
+==4431== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4431== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4431== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001783.bmp /media/edison/SanDisk/Canny/canny_output/2008_001783.bmp
+==4431== 
+--4431-- WARNING: Serious error when reading debug info
+--4431-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4431-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4431-- WARNING: Serious error when reading debug info
+--4431-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4431-- Last block truncated in .debug_info; ignoring
+--4431-- WARNING: Serious error when reading debug info
+--4431-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4431-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4431-- WARNING: Serious error when reading debug info
+--4431-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4431-- Last block truncated in .debug_info; ignoring
+--4431-- WARNING: Serious error when reading debug info
+--4431-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4431-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4431-- WARNING: Serious error when reading debug info
+--4431-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4431-- Last block truncated in .debug_info; ignoring
+Info: 333 x 500 x 24
+--4431-- WARNING: unhandled syscall: 403
+--4431-- You may be able to write your own handler.
+--4431-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4431-- Nevertheless we consider this a bug.  Please report
+--4431-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.076060 seconds.
+==4431== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001783.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001783.bmp
+==4459== Massif, a heap profiler
+==4459== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4459== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4459== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001784.bmp /media/edison/SanDisk/Canny/canny_output/2008_001784.bmp
+==4459== 
+--4459-- WARNING: Serious error when reading debug info
+--4459-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4459-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4459-- WARNING: Serious error when reading debug info
+--4459-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4459-- Last block truncated in .debug_info; ignoring
+--4459-- WARNING: Serious error when reading debug info
+--4459-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4459-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4459-- WARNING: Serious error when reading debug info
+--4459-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4459-- Last block truncated in .debug_info; ignoring
+--4459-- WARNING: Serious error when reading debug info
+--4459-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4459-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4459-- WARNING: Serious error when reading debug info
+--4459-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4459-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4459-- WARNING: unhandled syscall: 403
+--4459-- You may be able to write your own handler.
+--4459-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4459-- Nevertheless we consider this a bug.  Please report
+--4459-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.101297 seconds.
+==4459== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001784.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001784.bmp
+==4493== Massif, a heap profiler
+==4493== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4493== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4493== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001787.bmp /media/edison/SanDisk/Canny/canny_output/2008_001787.bmp
+==4493== 
+--4493-- WARNING: Serious error when reading debug info
+--4493-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4493-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4493-- WARNING: Serious error when reading debug info
+--4493-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4493-- Last block truncated in .debug_info; ignoring
+--4493-- WARNING: Serious error when reading debug info
+--4493-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4493-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4493-- WARNING: Serious error when reading debug info
+--4493-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4493-- Last block truncated in .debug_info; ignoring
+--4493-- WARNING: Serious error when reading debug info
+--4493-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4493-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4493-- WARNING: Serious error when reading debug info
+--4493-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4493-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4493-- WARNING: unhandled syscall: 403
+--4493-- You may be able to write your own handler.
+--4493-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4493-- Nevertheless we consider this a bug.  Please report
+--4493-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.963355 seconds.
+==4493== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001787.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001787.bmp
+==4539== Massif, a heap profiler
+==4539== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4539== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4539== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001789.bmp /media/edison/SanDisk/Canny/canny_output/2008_001789.bmp
+==4539== 
+--4539-- WARNING: Serious error when reading debug info
+--4539-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4539-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4539-- WARNING: Serious error when reading debug info
+--4539-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4539-- Last block truncated in .debug_info; ignoring
+--4539-- WARNING: Serious error when reading debug info
+--4539-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4539-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4539-- WARNING: Serious error when reading debug info
+--4539-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4539-- Last block truncated in .debug_info; ignoring
+--4539-- WARNING: Serious error when reading debug info
+--4539-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4539-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4539-- WARNING: Serious error when reading debug info
+--4539-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4539-- Last block truncated in .debug_info; ignoring
+Info: 500 x 338 x 24
+--4539-- WARNING: unhandled syscall: 403
+--4539-- You may be able to write your own handler.
+--4539-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4539-- Nevertheless we consider this a bug.  Please report
+--4539-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.267749 seconds.
+==4539== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001789.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001789.bmp
+==4567== Massif, a heap profiler
+==4567== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4567== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4567== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001791.bmp /media/edison/SanDisk/Canny/canny_output/2008_001791.bmp
+==4567== 
+--4567-- WARNING: Serious error when reading debug info
+--4567-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4567-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4567-- WARNING: Serious error when reading debug info
+--4567-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4567-- Last block truncated in .debug_info; ignoring
+--4567-- WARNING: Serious error when reading debug info
+--4567-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4567-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4567-- WARNING: Serious error when reading debug info
+--4567-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4567-- Last block truncated in .debug_info; ignoring
+--4567-- WARNING: Serious error when reading debug info
+--4567-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4567-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4567-- WARNING: Serious error when reading debug info
+--4567-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4567-- Last block truncated in .debug_info; ignoring
+Info: 375 x 500 x 24
+--4567-- WARNING: unhandled syscall: 403
+--4567-- You may be able to write your own handler.
+--4567-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4567-- Nevertheless we consider this a bug.  Please report
+--4567-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.173989 seconds.
+==4567== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001791.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001791.bmp
+==4600== Massif, a heap profiler
+==4600== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4600== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4600== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001792.bmp /media/edison/SanDisk/Canny/canny_output/2008_001792.bmp
+==4600== 
+--4600-- WARNING: Serious error when reading debug info
+--4600-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4600-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4600-- WARNING: Serious error when reading debug info
+--4600-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4600-- Last block truncated in .debug_info; ignoring
+--4600-- WARNING: Serious error when reading debug info
+--4600-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4600-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4600-- WARNING: Serious error when reading debug info
+--4600-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4600-- Last block truncated in .debug_info; ignoring
+--4600-- WARNING: Serious error when reading debug info
+--4600-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4600-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4600-- WARNING: Serious error when reading debug info
+--4600-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4600-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4600-- WARNING: unhandled syscall: 403
+--4600-- You may be able to write your own handler.
+--4600-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4600-- Nevertheless we consider this a bug.  Please report
+--4600-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.232877 seconds.
+==4600== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001792.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001792.bmp
+==4632== Massif, a heap profiler
+==4632== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4632== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4632== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001796.bmp /media/edison/SanDisk/Canny/canny_output/2008_001796.bmp
+==4632== 
+--4632-- WARNING: Serious error when reading debug info
+--4632-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4632-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4632-- WARNING: Serious error when reading debug info
+--4632-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4632-- Last block truncated in .debug_info; ignoring
+--4632-- WARNING: Serious error when reading debug info
+--4632-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4632-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4632-- WARNING: Serious error when reading debug info
+--4632-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4632-- Last block truncated in .debug_info; ignoring
+--4632-- WARNING: Serious error when reading debug info
+--4632-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4632-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4632-- WARNING: Serious error when reading debug info
+--4632-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4632-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4632-- WARNING: unhandled syscall: 403
+--4632-- You may be able to write your own handler.
+--4632-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4632-- Nevertheless we consider this a bug.  Please report
+--4632-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 7.968242 seconds.
+==4632== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001796.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001796.bmp
+==4669== Massif, a heap profiler
+==4669== Copyright (C) 2003-2011, and GNU GPL'd, by Nicholas Nethercote
+==4669== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4669== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001797.bmp /media/edison/SanDisk/Canny/canny_output/2008_001797.bmp
+==4669== 
+--4669-- WARNING: Serious error when reading debug info
+--4669-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4669-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4669-- WARNING: Serious error when reading debug info
+--4669-- When reading debug info from /usr/lib/arm-linux-gnueabihf/ld-2.31.so:
+--4669-- Last block truncated in .debug_info; ignoring
+--4669-- WARNING: Serious error when reading debug info
+--4669-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4669-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4669-- WARNING: Serious error when reading debug info
+--4669-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libm-2.31.so:
+--4669-- Last block truncated in .debug_info; ignoring
+--4669-- WARNING: Serious error when reading debug info
+--4669-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4669-- Ignoring non-Dwarf2/3/4 block in .debug_info
+--4669-- WARNING: Serious error when reading debug info
+--4669-- When reading debug info from /usr/lib/arm-linux-gnueabihf/libc-2.31.so:
+--4669-- Last block truncated in .debug_info; ignoring
+Info: 500 x 375 x 24
+--4669-- WARNING: unhandled syscall: 403
+--4669-- You may be able to write your own handler.
+--4669-- Read the file README_MISSING_SYSCALL_OR_IOCTL.
+--4669-- Nevertheless we consider this a bug.  Please report
+--4669-- it at http://valgrind.org/support/bug_reports.html.
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 8.115589 seconds.
+^C==4669== 

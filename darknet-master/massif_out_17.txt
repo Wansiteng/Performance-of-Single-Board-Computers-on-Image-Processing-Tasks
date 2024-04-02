@@ -1,0 +1,1086 @@
+desc: --massif-out-file=massif_out_17.txt
+cmd: ./darknet detector test cfg/coco.data cfg/yolov4.cfg yolov4.weights /media/edison/SanDisk/SmallPic/2008_001796.jpg
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=92884031
+mem_heap_B=773050800
+mem_heap_extra_B=226856
+mem_stacks_B=0
+heap_tree=detailed
+n3: 773050800 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 506317592 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 266158080 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 266158080 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 266158080 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 266158080 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 266158080 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 266158080 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 94633984 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 94633984 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 94633984 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 94633984 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 94633984 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 94633984 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 94633984 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 94633984 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 94633984 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 94633984 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 94633984 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 94633984 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 35487744 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 35487744 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 35487744 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 35487744 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 35487744 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 35487744 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 13925112 0x154F5F: make_image (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 13925112 0x1579F3: load_image_stb (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 13925112 0x15A69B: load_image (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 13925112 0x15ACC7: load_image_color (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 13925112 0x15ADC7: load_alphabet (in /media/edison/SanDisk/darknet-master/darknet)
+       n1: 13925112 0x196B93: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+        n1: 13925112 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+         n0: 13925112 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 1478688 in 23 places, all below massif's threshold (1.00%)
+ n1: 266158080 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 266158080 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 266158080 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 266158080 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 266158080 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 266158080 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 575128 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=2
+#-----------
+time=207689923
+mem_heap_B=877700160
+mem_heap_extra_B=240536
+mem_stacks_B=0
+heap_tree=detailed
+n3: 877700160 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 572576544 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 304603136 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 304603136 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 304603136 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 304603136 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 304603136 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 304603136 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 100548608 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 100548608 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 100548608 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 100548608 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 100548608 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 100548608 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 100548608 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 100548608 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 100548608 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 100548608 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 100548608 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 100548608 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 47316992 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 47316992 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 47316992 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 47316992 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 47316992 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 47316992 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 13925112 0x154F5F: make_image (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 13925112 0x1579F3: load_image_stb (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 13925112 0x15A69B: load_image (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 13925112 0x15ACC7: load_image_color (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 13925112 0x15ADC7: load_alphabet (in /media/edison/SanDisk/darknet-master/darknet)
+       n1: 13925112 0x196B93: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+        n1: 13925112 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+         n0: 13925112 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 5634088 in 23 places, all below massif's threshold (1.00%)
+ n1: 304603136 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 304603136 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 304603136 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 304603136 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 304603136 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 304603136 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 520480 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=287905931
+mem_heap_B=963366064
+mem_heap_extra_B=254840
+mem_stacks_B=0
+heap_tree=detailed
+n3: 963366064 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 628712240 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 334176256 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 334176256 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 334176256 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 334176256 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 334176256 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 334176256 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 106463232 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 106463232 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 106463232 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 106463232 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 106463232 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 106463232 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 106463232 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 106463232 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 106463232 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 106463232 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 106463232 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 106463232 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 59146240 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 59146240 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 59146240 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 59146240 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 59146240 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 59146240 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 13925112 0x154F5F: make_image (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 13925112 0x1579F3: load_image_stb (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 13925112 0x15A69B: load_image (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 13925112 0x15ACC7: load_image_color (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 13925112 0x15ADC7: load_alphabet (in /media/edison/SanDisk/darknet-master/darknet)
+       n1: 13925112 0x196B93: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+        n1: 13925112 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+         n0: 13925112 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 8538168 in 23 places, all below massif's threshold (1.00%)
+ n1: 334176256 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 334176256 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 334176256 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 334176256 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 334176256 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 334176256 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 477568 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=4
+#-----------
+time=418704972
+mem_heap_B=971040104
+mem_heap_extra_B=258624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=520544617
+mem_heap_B=993935352
+mem_heap_extra_B=257776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=593268146
+mem_heap_B=1003948792
+mem_heap_extra_B=257376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=673310802
+mem_heap_B=1020140608
+mem_heap_extra_B=256824
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1020140608 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 669266744 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 350441472 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 350441472 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 350441472 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 350441472 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 350441472 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 350441472 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 109420544 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 109420544 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 109420544 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 109420544 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 109420544 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 109420544 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 109420544 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 109420544 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 109420544 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 109420544 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 109420544 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 109420544 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 63582208 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 63582208 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 63582208 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 63582208 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 63582208 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 63582208 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 21917056 0x12571F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 21917056 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 21917056 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 21917056 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 21917056 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 21917056 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 13925112 0x154F5F: make_image (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 13925112 0x1579F3: load_image_stb (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 13925112 0x15A69B: load_image (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 13925112 0x15ACC7: load_image_color (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 13925112 0x15ADC7: load_alphabet (in /media/edison/SanDisk/darknet-master/darknet)
+       n1: 13925112 0x196B93: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+        n1: 13925112 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+         n0: 13925112 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 559808 in 22 places, all below massif's threshold (1.00%)
+ n1: 350441472 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 350441472 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 350441472 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 350441472 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 350441472 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 350441472 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 432392 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=811438728
+mem_heap_B=1033989112
+mem_heap_extra_B=256176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=884162252
+mem_heap_B=1044002552
+mem_heap_extra_B=255776
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=964204957
+mem_heap_B=1060194368
+mem_heap_extra_B=255096
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1060194368 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 697529144 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 362270720 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 362270720 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 362270720 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 362270720 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 362270720 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 362270720 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 109420544 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 109420544 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 109420544 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 109420544 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 109420544 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 109420544 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 109420544 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 109420544 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 109420544 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 109420544 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 109420544 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 109420544 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 69496832 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 69496832 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 69496832 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 69496832 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 69496832 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 69496832 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 32402816 0x12571F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 32402816 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 32402816 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 32402816 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 32402816 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 32402816 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 13925112 0x154F5F: make_image (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 13925112 0x1579F3: load_image_stb (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 13925112 0x15A69B: load_image (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 13925112 0x15ACC7: load_image_color (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 13925112 0x15ADC7: load_alphabet (in /media/edison/SanDisk/darknet-master/darknet)
+       n1: 13925112 0x196B93: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+        n1: 13925112 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+         n0: 13925112 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 592576 in 22 places, all below massif's threshold (1.00%)
+ n1: 362270720 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 362270720 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 362270720 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 362270720 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 362270720 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 362270720 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 394504 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=1066031044
+mem_heap_B=1083088304
+mem_heap_extra_B=254400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1589197353
+mem_heap_B=1103442024
+mem_heap_extra_B=258192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1647352174
+mem_heap_B=1107767584
+mem_heap_extra_B=257976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1734623994
+mem_heap_B=1117580864
+mem_heap_extra_B=257576
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1117580864 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 745335632 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 371881984 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 371881984 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 371881984 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 371881984 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 371881984 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 371881984 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 113856512 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 113856512 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 113856512 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 113856512 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 113856512 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 113856512 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 113856512 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 113856512 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 113856512 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 113856512 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 113856512 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 113856512 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 70975488 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 70975488 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 70975488 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 70975488 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 70975488 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 70975488 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 60190080 0x12571F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 60190080 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 60190080 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 60190080 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 60190080 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 60190080 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 13925112 0x154F5F: make_image (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 13925112 0x1579F3: load_image_stb (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 13925112 0x15A69B: load_image (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 13925112 0x15ACC7: load_image_color (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 13925112 0x15ADC7: load_alphabet (in /media/edison/SanDisk/darknet-master/darknet)
+       n1: 13925112 0x196B93: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+        n1: 13925112 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+         n0: 13925112 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 649944 in 22 places, all below massif's threshold (1.00%)
+ n1: 371881984 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 371881984 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 371881984 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 371881984 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 371881984 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 371881984 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 363248 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=1996212131
+mem_heap_B=1127755512
+mem_heap_extra_B=261360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=2025329878
+mem_heap_B=1131769664
+mem_heap_extra_B=261168
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=2286917886
+mem_heap_B=1141944824
+mem_heap_extra_B=264960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2316035611
+mem_heap_B=1145958976
+mem_heap_extra_B=264736
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2577623664
+mem_heap_B=1156134136
+mem_heap_extra_B=268528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2606741391
+mem_heap_B=1160148288
+mem_heap_extra_B=268304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2868329419
+mem_heap_B=1170323448
+mem_heap_extra_B=272096
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=2897467908
+mem_heap_B=1181484720
+mem_heap_extra_B=275624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=3013726076
+mem_heap_B=1182967472
+mem_heap_extra_B=275640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=3071897687
+mem_heap_B=1187298664
+mem_heap_extra_B=275440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=3595064465
+mem_heap_B=1207652384
+mem_heap_extra_B=279232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=3653309715
+mem_heap_B=1221584248
+mem_heap_extra_B=278464
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1221584248 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 842011536 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 382232576 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 382232576 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 382232576 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 382232576 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 382232576 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 382232576 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 129396096 0x12571F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 129396096 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 129396096 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 129396096 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 129396096 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 129396096 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 119771136 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 119771136 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 119771136 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 119771136 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 119771136 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 119771136 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 119771136 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 119771136 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 119771136 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 119771136 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 119771136 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 119771136 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 73932800 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 73932800 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 73932800 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 73932800 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 73932800 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 73932800 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 13925112 0x154F5F: make_image (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 13925112 0x1579F3: load_image_stb (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 13925112 0x15A69B: load_image (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 13925112 0x15ACC7: load_image_color (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 13925112 0x15ADC7: load_alphabet (in /media/edison/SanDisk/darknet-master/darknet)
+       n1: 13925112 0x196B93: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+        n1: 13925112 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+         n0: 13925112 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 2982680 in 23 places, all below massif's threshold (1.00%)
+ n1: 379275264 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 379275264 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 379275264 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 379275264 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 379275264 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 379275264 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 297448 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=3769592700
+mem_heap_B=1226524448
+mem_heap_extra_B=282464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=4292759473
+mem_heap_B=1246878168
+mem_heap_extra_B=286256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=4394638998
+mem_heap_B=1269413808
+mem_heap_extra_B=285272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=4525438308
+mem_heap_B=1277088896
+mem_heap_extra_B=289088
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=4540013169
+mem_heap_B=1279097120
+mem_heap_extra_B=288856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=4670812480
+mem_heap_B=1286772208
+mem_heap_extra_B=292672
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=4729105217
+mem_heap_B=1332484248
+mem_heap_extra_B=311792
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=4856519650
+mem_heap_B=1387400020
+mem_heap_extra_B=325420
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=4987318973
+mem_heap_B=1395075108
+mem_heap_extra_B=329236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=5001893819
+mem_heap_B=1397083332
+mem_heap_extra_B=329004
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=5132693131
+mem_heap_B=1404758420
+mem_heap_extra_B=332820
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=5147267999
+mem_heap_B=1406766644
+mem_heap_extra_B=332588
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=5278067300
+mem_heap_B=1414441732
+mem_heap_extra_B=336404
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=5292661718
+mem_heap_B=1427083128
+mem_heap_extra_B=339440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=5423452014
+mem_heap_B=1427824504
+mem_heap_extra_B=339456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=5481635484
+mem_heap_B=1433627112
+mem_heap_extra_B=339224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=6004802178
+mem_heap_B=1453980832
+mem_heap_extra_B=343016
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=6062973677
+mem_heap_B=1456833368
+mem_heap_extra_B=342808
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=6586140448
+mem_heap_B=1477187088
+mem_heap_extra_B=346600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=6644311974
+mem_heap_B=1480039624
+mem_heap_extra_B=346392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=7167478592
+mem_heap_B=1500393344
+mem_heap_extra_B=350184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=7197031524
+mem_heap_B=1609015752
+mem_heap_extra_B=350648
+mem_stacks_B=0
+heap_tree=peak
+n3: 1609015752 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 1229613200 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 457613708 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 457613708 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 457613708 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 457613708 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 457613708 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 457613708 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 257184128 0x12571F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 257184128 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 257184128 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 257184128 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 257184128 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 257184128 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 146386944 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 146386944 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 146386944 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 146386944 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 146386944 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 146386944 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 146386944 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 146386944 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 146386944 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 146386944 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 146386944 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 146386944 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 106463232 0x17ED53: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 106463232 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 106463232 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n0: 106463232 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 73932800 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 73932800 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 73932800 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 73932800 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 73932800 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 73932800 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 41645444 in 34 places, all below massif's threshold (1.00%)
+ n1: 379275264 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 379275264 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 379275264 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 379275264 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 379275264 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 379275264 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 127288 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=7246560549
+mem_heap_B=1608926192
+mem_heap_extra_B=349456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=7263704685
+mem_heap_B=1608910832
+mem_heap_extra_B=349336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=7278505067
+mem_heap_B=1608891376
+mem_heap_extra_B=349192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=7321003279
+mem_heap_B=1608883184
+mem_heap_extra_B=349168
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1608883184 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 1229489296 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 457613708 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 457613708 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 457613708 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 457613708 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 457613708 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 457613708 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 257184128 0x12571F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 257184128 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 257184128 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 257184128 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 257184128 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 257184128 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 146386944 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 146386944 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 146386944 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 146386944 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 146386944 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 146386944 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 146386944 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 146386944 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 146386944 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 146386944 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 146386944 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 146386944 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 106463232 0x17ED53: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 106463232 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 106463232 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n0: 106463232 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 73932800 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 73932800 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 73932800 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 73932800 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 73932800 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 73932800 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 41521540 in 34 places, all below massif's threshold (1.00%)
+ n1: 379275264 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 379275264 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 379275264 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 379275264 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 379275264 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 379275264 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 118624 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=7354095527
+mem_heap_B=1608854512
+mem_heap_extra_B=349072
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=7377719545
+mem_heap_B=1608842224
+mem_heap_extra_B=349024
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=7401343563
+mem_heap_B=1608829936
+mem_heap_extra_B=348976
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=7424967581
+mem_heap_B=1608817648
+mem_heap_extra_B=348928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=7441544603
+mem_heap_B=1608793072
+mem_heap_extra_B=348856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=7484042815
+mem_heap_B=1608784880
+mem_heap_extra_B=348832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=7540727899
+mem_heap_B=1608760304
+mem_heap_extra_B=348760
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=7559656871
+mem_heap_B=1608734704
+mem_heap_extra_B=348640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=7576223035
+mem_heap_B=1608712688
+mem_heap_extra_B=348344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=7596626905
+mem_heap_B=1608693232
+mem_heap_extra_B=348176
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1608693232 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 1229299344 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 457613708 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 457613708 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 457613708 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 457613708 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 457613708 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 457613708 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 257184128 0x12571F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 257184128 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 257184128 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 257184128 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 257184128 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 257184128 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 146386944 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 146386944 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 146386944 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 146386944 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 146386944 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 146386944 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 146386944 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 146386944 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 146386944 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 146386944 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 146386944 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 146386944 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 106463232 0x17ED53: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 106463232 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 106463232 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n0: 106463232 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 73932800 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 73932800 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 73932800 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 73932800 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 73932800 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 73932800 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 41331588 in 34 places, all below massif's threshold (1.00%)
+ n1: 379275264 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 379275264 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 379275264 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 379275264 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 379275264 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 379275264 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 118624 in 15 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=7620266601
+mem_heap_B=1608674800
+mem_heap_extra_B=348080
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=7635633107
+mem_heap_B=1608662512
+mem_heap_extra_B=348032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=7678131319
+mem_heap_B=1608654320
+mem_heap_extra_B=348008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=7725363647
+mem_heap_B=1608635888
+mem_heap_extra_B=347960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=7772595975
+mem_heap_B=1608617456
+mem_heap_extra_B=347912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=7795441236
+mem_heap_B=1609205556
+mem_heap_extra_B=347980
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=7857654351
+mem_heap_B=1615295232
+mem_heap_extra_B=351944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=136613764775
+mem_heap_B=1615295408
+mem_heap_extra_B=351968
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=136639167938
+mem_heap_B=1615859020
+mem_heap_extra_B=352020
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=136663720880
+mem_heap_B=1615859020
+mem_heap_extra_B=352020
+mem_stacks_B=0
+heap_tree=detailed
+n3: 1615859020 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n8: 1236464660 0x1222CB: xcalloc_location (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 457613708 0x12548B: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 457613708 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 457613708 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 457613708 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 457613708 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 457613708 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 257184128 0x12571F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 257184128 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 257184128 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 257184128 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 257184128 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 257184128 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 146386944 0x18740B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 146386944 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 146386944 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 146386944 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 146386944 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 146386944 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 146386944 0x18742B: make_route_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 146386944 0x17CDF7: parse_route (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 146386944 0x17FA83: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 146386944 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 146386944 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 146386944 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 106463232 0x17ED53: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 106463232 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 106463232 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n0: 106463232 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 73932800 0x19EB9F: make_shortcut_layer (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 73932800 0x17C423: parse_shortcut (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 73932800 0x17F77F: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 73932800 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n1: 73932800 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+       n0: 73932800 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+  n0: 27885824 in 38 places, all below massif's threshold (1.00%)
+  n2: 20611080 0x154F5F: make_image (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 16175112 0x1579F3: load_image_stb (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 16175112 0x15A69B: load_image (in /media/edison/SanDisk/darknet-master/darknet)
+     n0: 16175112 in 2 places, all below massif's threshold (1.00%)
+   n0: 4435968 in 4 places, all below massif's threshold (1.00%)
+ n1: 379275264 0x12559F: make_convolutional_layer (in /media/edison/SanDisk/darknet-master/darknet)
+  n1: 379275264 0x178957: parse_convolutional (in /media/edison/SanDisk/darknet-master/darknet)
+   n1: 379275264 0x17E3CF: parse_network_cfg_custom (in /media/edison/SanDisk/darknet-master/darknet)
+    n1: 379275264 0x196BAB: test_detector (in /media/edison/SanDisk/darknet-master/darknet)
+     n1: 379275264 0x197AFB: run_detector (in /media/edison/SanDisk/darknet-master/darknet)
+      n0: 379275264 0x11A807: main (in /media/edison/SanDisk/darknet-master/darknet)
+ n0: 119096 in 20 places, all below massif's threshold (1.00%)

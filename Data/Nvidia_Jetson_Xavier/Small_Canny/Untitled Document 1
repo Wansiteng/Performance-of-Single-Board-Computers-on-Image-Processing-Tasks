@@ -1,0 +1,233 @@
+==2950== Massif, a heap profiler
+==2950== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2950== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2950== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001745.bmp /media/edison/SanDisk/Canny/canny_output/2008_001745.bmp
+==2950== 
+Info: 375 x 500 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.955351 seconds.
+==2950== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001745.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001745.bmp
+==2955== Massif, a heap profiler
+==2955== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2955== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2955== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001746.bmp /media/edison/SanDisk/Canny/canny_output/2008_001746.bmp
+==2955== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.972017 seconds.
+==2955== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001746.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001746.bmp
+==2961== Massif, a heap profiler
+==2961== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2961== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2961== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001750.bmp /media/edison/SanDisk/Canny/canny_output/2008_001750.bmp
+==2961== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 1.142606 seconds.
+==2961== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001750.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001750.bmp
+==2966== Massif, a heap profiler
+==2966== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2966== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2966== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001751.bmp /media/edison/SanDisk/Canny/canny_output/2008_001751.bmp
+==2966== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.959427 seconds.
+==2966== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001751.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001751.bmp
+==2971== Massif, a heap profiler
+==2971== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2971== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2971== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001757.bmp /media/edison/SanDisk/Canny/canny_output/2008_001757.bmp
+==2971== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.950686 seconds.
+==2971== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001757.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001757.bmp
+==2976== Massif, a heap profiler
+==2976== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2976== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2976== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001758.bmp /media/edison/SanDisk/Canny/canny_output/2008_001758.bmp
+==2976== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 1.117965 seconds.
+==2976== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001758.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001758.bmp
+==2980== Massif, a heap profiler
+==2980== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2980== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2980== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001761.bmp /media/edison/SanDisk/Canny/canny_output/2008_001761.bmp
+==2980== 
+Info: 379 x 500 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.875571 seconds.
+==2980== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001761.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001761.bmp
+==2984== Massif, a heap profiler
+==2984== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2984== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2984== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001763.bmp /media/edison/SanDisk/Canny/canny_output/2008_001763.bmp
+==2984== 
+Info: 333 x 500 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.883987 seconds.
+==2984== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001763.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001763.bmp
+==2988== Massif, a heap profiler
+==2988== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2988== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2988== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001764.bmp /media/edison/SanDisk/Canny/canny_output/2008_001764.bmp
+==2988== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.964804 seconds.
+==2988== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001764.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001764.bmp
+==2994== Massif, a heap profiler
+==2994== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2994== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2994== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001765.bmp /media/edison/SanDisk/Canny/canny_output/2008_001765.bmp
+==2994== 
+Info: 375 x 500 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.958510 seconds.
+==2994== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001765.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001765.bmp
+==2999== Massif, a heap profiler
+==2999== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==2999== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2999== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001769.bmp /media/edison/SanDisk/Canny/canny_output/2008_001769.bmp
+==2999== 
+Info: 469 x 500 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 1.129445 seconds.
+==2999== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001769.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001769.bmp
+==3009== Massif, a heap profiler
+==3009== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3009== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3009== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001770.bmp /media/edison/SanDisk/Canny/canny_output/2008_001770.bmp
+==3009== 
+Info: 375 x 500 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 1.089401 seconds.
+==3009== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001770.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001770.bmp
+==3015== Massif, a heap profiler
+==3015== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3015== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3015== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001772.bmp /media/edison/SanDisk/Canny/canny_output/2008_001772.bmp
+==3015== 
+Info: 500 x 333 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.854880 seconds.
+==3015== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001772.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001772.bmp
+==3019== Massif, a heap profiler
+==3019== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3019== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3019== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001773.bmp /media/edison/SanDisk/Canny/canny_output/2008_001773.bmp
+==3019== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.948945 seconds.
+==3019== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001773.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001773.bmp
+==3025== Massif, a heap profiler
+==3025== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3025== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3025== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001774.bmp /media/edison/SanDisk/Canny/canny_output/2008_001774.bmp
+==3025== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.898317 seconds.
+==3025== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001774.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001774.bmp
+==3030== Massif, a heap profiler
+==3030== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3030== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3030== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001775.bmp /media/edison/SanDisk/Canny/canny_output/2008_001775.bmp
+==3030== 
+Info: 500 x 337 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.921030 seconds.
+==3030== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001775.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001775.bmp
+==3035== Massif, a heap profiler
+==3035== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3035== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3035== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001781.bmp /media/edison/SanDisk/Canny/canny_output/2008_001781.bmp
+==3035== 
+Info: 468 x 312 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.775101 seconds.
+==3035== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001781.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001781.bmp
+==3042== Massif, a heap profiler
+==3042== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3042== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3042== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001782.bmp /media/edison/SanDisk/Canny/canny_output/2008_001782.bmp
+==3042== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.976822 seconds.
+==3042== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001782.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001782.bmp
+==3047== Massif, a heap profiler
+==3047== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3047== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3047== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001783.bmp /media/edison/SanDisk/Canny/canny_output/2008_001783.bmp
+==3047== 
+Info: 333 x 500 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.887684 seconds.
+==3047== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001783.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001783.bmp
+==3051== Massif, a heap profiler
+==3051== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3051== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3051== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001784.bmp /media/edison/SanDisk/Canny/canny_output/2008_001784.bmp
+==3051== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.987761 seconds.
+==3051== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001784.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001784.bmp
+==3057== Massif, a heap profiler
+==3057== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3057== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3057== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001787.bmp /media/edison/SanDisk/Canny/canny_output/2008_001787.bmp
+==3057== 
+Info: 500 x 375 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.922151 seconds.
+==3057== 
+Running canny for /media/edison/SanDisk/SmallPic/2008_001787.bmp to /media/edison/SanDisk/Canny/canny_output/2008_001787.bmp
+==3062== Massif, a heap profiler
+==3062== Copyright (C) 2003-2017, and GNU GPL'd, by Nicholas Nethercote
+==3062== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==3062== Command: ./canny /media/edison/SanDisk/SmallPic/2008_001789.bmp /media/edison/SanDisk/Canny/canny_output/2008_001789.bmp
+==3062== 
+Info: 500 x 338 x 24
+gaussian_filter: kernel size 7, sigma=1
+Canny Edge Detection took 0.845541 seconds.
+^C==3062== 
+==3062== Process terminating with default action of signal 2 (SIGINT)
+==3062==    at 0x49E7C7C: write (write.c:26)
+==3062==    by 0x4993F4B: _IO_file_write@@GLIBC_2.17 (fileops.c:1181)
+==3062==    by 0x4993357: new_do_write (fileops.c:449)
+==3062==    by 0x4994FF7: _IO_new_do_write (fileops.c:426)
+==3062==    by 0x4994FF7: _IO_do_write@@GLIBC_2.17 (fileops.c:423)
+==3062==    by 0x49945E7: _IO_new_file_xsputn (fileops.c:1244)
+==3062==    by 0x49945E7: _IO_file_xsputn@@GLIBC_2.17 (fileops.c:1197)
+==3062==    by 0x4988857: fwrite (iofwrite.c:39)
+==3062==    by 0x10938F: save_bmp(char const*, bitmap_info_header_t const*, short const*) (in /media/edison/SanDisk/Canny/canny)
+==3062==    by 0x10A6AB: main (in /media/edison/SanDisk/Canny/canny)
+==3062== 
+
+
